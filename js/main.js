@@ -6,7 +6,7 @@ onload = () => {
     const titleElement = document.getElementById('title');
     let index = 0;
     let currentText = '';
-    const maxLength = 50; // Máximo número de caracteres visibles por bloque
+    const maxLength = 150; // Máximo número de caracteres visibles por bloque
     let showingText = false; // Controla si las letras están mostrándose una por una
 
     function appendTitle() {
